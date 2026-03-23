@@ -66,7 +66,7 @@ jobs:
           "examples/Web Applications/Framework
           Examples/Blazor/BlazorWasmAuthExample"
         run: |
-          sed -i 's|<head>|<head>\n    <base href="/systemlink-enterprise-examples-fork/" />|' dist/wwwroot/index.html
+          sed -i 's|<head>|<head>\n    <base href="/${{ github.event.repository.name }}/" />|' dist/wwwroot/index.html
 
       - name: Add .nojekyll and 404.html
         working-directory:
