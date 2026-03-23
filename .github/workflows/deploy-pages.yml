@@ -1,5 +1,5 @@
 # TODO (before merging to ni/systemlink-enterprise-examples):
-#   1. Change the branch trigger below from 'blazor-pages' to 'main'
+#   1. Change the branch trigger below from 'blazor-pages' and 'main' to only 'main'
 #   2. Update the Live Demo URL in examples/Web Applications/README.md
 #      from: https://Samuelsotogit.github.io/systemlink-enterprise-examples-fork/
 #      to:   https://ni.github.io/systemlink-enterprise-examples/
@@ -13,6 +13,7 @@ on:
   push:
     branches:
       - blazor-pages
+      - main
     paths:
       - "examples/Web Applications/Framework Examples/Blazor/**"
       - ".github/workflows/deploy-pages.yml"
