@@ -1,9 +1,18 @@
+# TODO (before merging to ni/systemlink-enterprise-examples):
+#   1. Change the branch trigger below from 'blazor-pages' to 'main'
+#   2. Update the Live Demo URL in examples/Web Applications/README.md
+#      from: https://Samuelsotogit.github.io/systemlink-enterprise-examples-fork/
+#      to:   https://ni.github.io/systemlink-enterprise-examples/
+#   3. NI repo admin must: Settings -> Pages -> Source -> GitHub Actions
+#   4. NI repo admin must: Settings -> Environments -> github-pages ->
+#      Deployment branches -> add 'main'
+
 name: Deploy Blazor to GitHub Pages
 
 on:
   push:
     branches:
-      - Storybook
+      - blazor-pages
     paths:
       - "examples/Web Applications/Framework Examples/Blazor/**"
       - ".github/workflows/deploy-pages.yml"
