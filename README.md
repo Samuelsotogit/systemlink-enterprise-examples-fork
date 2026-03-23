@@ -66,11 +66,11 @@ and extend SystemLink Enterprise for your organization's needs.
 
 ### UI Framework Examples
 
-- **[Web Applications](examples/web_apps/README.md)** - Design testing and
-  measurement Visualizations
+- **[Web Applications](examples/Web%20Applications/README.md)** -
+  Design testing and measurement visualizations
   - Create your own visualizations using React, Angular, or Blazor
-  - Host your designs on StoryBook before uploading them to System Link
-  - Access API tools via UI templates within System Link
+  - Host your designs on Storybook before uploading them to SystemLink
+  - Access API tools via UI templates within SystemLink
 
 ## Getting Started
 

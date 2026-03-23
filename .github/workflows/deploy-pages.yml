@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - Storybook
+    paths:
+      - "examples/Web Applications/Framework Examples/Blazor/**"
+      - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
 permissions:
